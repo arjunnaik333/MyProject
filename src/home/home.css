@@ -1,0 +1,150 @@
+#logoo{
+    width: 70px;
+    
+}
+.ant-btn-icon-only > * {
+    font-size: 24px;
+}
+#myAccount{
+    background-color: #061629;
+    border:none;
+    color:#4b91ff;
+    margin-left: 10px;
+    text-align: center;
+}
+#search{
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    align-self: center;
+}
+
+
+#footer{
+    background-color: rgb(255, 255, 255);
+
+    box-shadow:  #d2dadd 0px 0px 5px 1px;
+
+}
+.ant-carousel .slick-dots {
+    margin-top: 15px;
+    position: relative !important;
+
+}
+.ant-carousel .slick-dots li button {
+    width: 48% !important;
+    height: 10px !important;
+    border-radius: 48px !important;
+    background-color: rgb(51, 47, 47) !important;
+
+}
+#search{
+    margin-left: 25%;
+    width: 50%;
+}
+#nav{
+    text-align: end;
+    width:100%
+}
+h1{
+    display :inline;
+    margin-left: 26%;
+}
+#support{
+background-color: rgb(255, 255, 255);
+
+box-shadow: inset #ddd2d2 0px 0px 4px 1px;
+
+vertical-align: middle;
+
+}
+#carousal{
+    border-radius: 10px;
+    height:200
+}
+#row1{
+    margin-top: 28px;
+    row-gap: 30px;
+}
+#footer{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    
+}
+#fotcont{
+    margin-left: 100px;
+}
+h2{
+    font-size: 10px;
+}
+.ant-card-body {
+    padding: 16px !important;
+    
+}
+#card{
+    
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(163, 163, 240) 0px 0px 5px 0px;
+}
+#logo1{
+    vertical-align: middle;
+}
+#iconrow2, #iconrow1, #row1{
+    justify-content: space-evenly;
+}
+ .ant-row {
+     
+     row-gap: 30px;
+    }
+ @media ( min-width:1024px){
+     
+ 
+    #iconrow2{
+   width: 53.2% ;
+   
+    }}
+
+
+
+ @media ( max-width:425px){
+   #search{
+       display: none    ;
+   }
+   #logoo  {
+       display: none    ;
+   }
+  
+
+
+ }
+ @media (max-width:320px){
+ #iconrow1{
+    width: 100%;
+    margin-left: auto;
+}
+#iconrow2{
+    width: 100%;
+    margin-left: auto;
+}
+ }
+
+ @media (max-width: 768px){
+    #iconrow1{
+        width: 93%;
+        margin-left: auto;
+    }
+    #iconrow2{
+        width: 93%;
+        margin-left: auto;
+    }
+
+ }
+ @media (max-width: 1024px){
+    #iconrow2{
+   width: none ;
+   
+    }
+} 

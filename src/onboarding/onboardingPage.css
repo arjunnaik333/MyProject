@@ -1,0 +1,9 @@
+#onboarding{
+    background-image: url('../asset/onboardingBack.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 50px;
+    height:789px;
+    
+}

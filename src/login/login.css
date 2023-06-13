@@ -1,0 +1,85 @@
+.main{background-image: url(../asset/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+height: 789px;
+}
+
+@media  (min-width: 720px) {
+   
+#loginbox{
+    
+    width:30%;
+    height:60%;
+    float: right;
+    position: absolute;
+    right: 10%;
+    top:20%;
+  margin: 20px;
+  padding: 25px;
+  background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(36, 126, 209) 0px 0px 5px 2px;
+}}
+@media  (max-width: 720px) {
+#loginbox{
+    display:block;
+    position: relative;
+    background-color: white;
+    margin:auto ;
+    padding:10px;
+    
+}
+}
+
+@media (min-width: 720px) {
+#openingimg{
+display:inline;
+width:40%;
+margin:50px 50px 50px 50px;
+}}
+@media (max-width: 720px) {
+#openingimg{
+    display:none;
+    width:40%;
+    margin:152px 50px 50px 50px;
+    }
+
+
+}
+@media (min-width: 720px){
+#logo{
+    width: 153px;
+    margin: 0px 0px 0px 36px;
+    padding-top: 20px;
+    position: relative;
+}}
+@media (max-width: 720px){
+    #logo{
+    width: 110px;
+    margin: 10px 0px 0px 31%;
+    position: relative;
+}}
+
+
+.forgetpassword {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#input {
+    border-radius: 10px;
+}
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+}
+
+
+
+
